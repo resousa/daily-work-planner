@@ -7,3 +7,15 @@
     td {
       border-bottom: .25px solid black;
     }
+    
+    .over {
+        background-color: #EEAA7B;
+      }
+    
+      .now {
+        background-color: #5AB9EA;
+      }
+    
+      .soon {
+        background-color: #57BC90;
+      }
