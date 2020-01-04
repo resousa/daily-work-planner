@@ -1,0 +1,9 @@
+.jumbotron {
+    height: 250px;
+  }
+    table {
+      border: 2px solid black;
+    }
+    td {
+      border-bottom: .25px solid black;
+    }
