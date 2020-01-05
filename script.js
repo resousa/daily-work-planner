@@ -52,8 +52,13 @@ $(document).ready(function() {
       .split(":")[0];
 
     localStorage.setItem(time, input.val());
-    console.log(input);
+    
     console.log(time);
+  });
+
+  //remove higlight around save button
+  $(".save-button").mouseup(function() {
+    this.blur();
   });
 
   //display items from local storage
