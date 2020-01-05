@@ -8,7 +8,7 @@
 - [License](#License)
 
 ### Info
-![password generator demo](link)
+![password generator demo](https://github.com/resousa/daily-work-planner/blob/master/assets/images/planner.PNG?raw=true)
 
 This daily work planner can be used to keep track of your tasks for the day on an hourly basis. It has some neat features including date, clock, and color coded hours based on the time. You can find out more about these features in the Summary.
 
