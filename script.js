@@ -52,13 +52,19 @@ $(document).ready(function() {
       .split(":")[0];
 
     localStorage.setItem(time, input.val());
-    
+  
     console.log(time);
   });
 
   //remove higlight around save button
   $(".save-button").mouseup(function() {
     this.blur();
+  });
+
+  //clear storage
+  $(".clear-button").click(function() {
+    localStorage.clear();
+    location.reload();
   });
 
   //display items from local storage

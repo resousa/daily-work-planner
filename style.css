@@ -1,21 +1,24 @@
 .jumbotron {
-    height: 250px;
-  }
-    table {
-      border: 2px solid black;
-    }
-    td {
-      border-bottom: .25px solid black;
-    }
-    
-    .over {
-        background-color: #EEAA7B;
-      }
-    
-      .now {
-        background-color: #5AB9EA;
-      }
-    
-      .soon {
-        background-color: #57BC90;
-      }
+  height: 250px;
+  background-color: lightgray;
+}
+
+table {
+  border: 2px solid black;
+}
+
+td {
+  border-bottom: .25px solid black;
+}
+
+.over {
+  background-color: #EEAA7B;
+}
+
+.now {
+  background-color: #5AB9EA;
+}
+
+.soon {
+  background-color: #57BC90;
+}   
