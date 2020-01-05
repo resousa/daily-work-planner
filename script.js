@@ -33,4 +33,37 @@ $(document).ready(function() {
     }
     console.log(time);
   }
+
+  //add items to local storage
+  $(".save-button").click(function() {
+    var input = $(this)
+      .parent()
+      .parent()
+      .parent()
+      .children("td")
+      .find("input");
+
+    var time = $(this)
+      .parent()
+      .parent()
+      .parent()
+      .children("td")
+      .text()
+      .split(":")[0];
+
+    localStorage.setItem(time, input.val());
+    console.log(input);
+    console.log(time);
+  });
+
+  //display items from local storage
+  $("input#9").val(localStorage.getItem("9"));
+  $("input#10").val(localStorage.getItem("10"));
+  $("input#11").val(localStorage.getItem("11"));
+  $("input#12").val(localStorage.getItem("12"));
+  $("input#1").val(localStorage.getItem("1"));
+  $("input#2").val(localStorage.getItem("2"));
+  $("input#3").val(localStorage.getItem("3"));
+  $("input#4").val(localStorage.getItem("4"));
+  $("input#5").val(localStorage.getItem("5"));
 });
