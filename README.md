@@ -1,5 +1,5 @@
 # daily-work-planner
-
+[Work Planner](https://resousa.github.io/daily-work-planner/)
 ## Table of contents
 - [General info](#Info)
 - [Technologies](#Technologies)
